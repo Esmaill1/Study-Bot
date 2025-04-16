@@ -88,7 +88,7 @@ Client.on('message', async message =>{
 //   let portalThree = "823394715092254740";
 //   let portalFour = "823394758486654986";
 //   let portalFive = "823394661636636762";
-//   const textChannel = client.channels.cache.get(`821951428717183006`);
+//   const textChannel = client.channels.cache.get(`1362092959570329743`);
 
 // first Portal
 //   if (newMember.channelID === portalOne && oldMember.channelID !== portalOne) {
@@ -335,10 +335,10 @@ client.on('voiceStateUpdate', (oldMember, newMember) => {
   const oldUserChannel = oldMember.channelID;
   const person = client.users.cache.get(newMember.id);
   let hasMember = 0;
-  const grindTimeVC = '822826357100249098'; // changed
-  const streakChannel = client.channels.cache.get('839226206276812800'); // changed
-  const accountabilityChannel = client.channels.cache.get('821951428717183006'); // changed
-  const announcementsChannel = client.channels.cache.get('795155126208823297');
+  const grindTimeVC = '1362092968642609443'; // 
+  const streakChannel = client.channels.cache.get('1362096519624397041'); // changed
+  const accountabilityChannel = client.channels.cache.get('1362092959570329743'); // changed
+  const announcementsChannel = client.channels.cache.get('1362092951978770605');
   const minute = 1000 * 60;
 
   let userData = [];
@@ -780,7 +780,7 @@ client.on('voiceStateUpdate', (oldMember, newMember) => {
   const enterChannelID = '817298113169195029';
   const finishedTutorialRole = '793538214396690442';
   // Other
-  const textChannel = client.channels.cache.get('821951428717183006');
+  const textChannel = client.channels.cache.get('1362092959570329743');
   const currentlyGrindingRole = '788248531927695421';
 
   // Assign Finished Tutorial Role on Enter
@@ -837,7 +837,7 @@ client.on('voiceStateUpdate', (oldMember, newMember) => {
 // 	const newUserChannel = newMember.channelID;
 // 	const oldUserChannel = oldMember.channelID;
 // 	const voiceChannelID = '822696684139315261';
-// 	const textChannel = client.channels.cache.get('821951428717183006');
+// 	const textChannel = client.channels.cache.get('1362092959570329743');
 // 	const minuteTime = 1000 * 60;
 //
 // 	if (

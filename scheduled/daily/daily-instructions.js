@@ -118,12 +118,12 @@ client.login(config.token);
 client.once('ready', () => {
   console.log('Daily Instructions Scheduler is ready');
   // const guild = client.guilds.cache.get('787354978166898708');
-  const leaderboardChannel = client.channels.cache.get('789206330522468403');
+  const leaderboardChannel = client.channels.cache.get('1362092953987977326');
   const pomoChannel = client.channels.cache.get('787808422175178834');
   const todoChannel = client.channels.cache.get('806327504364371989');
   const musicChannel = client.channels.cache.get('787881524753858561');
-  const streaksChannel = client.channels.cache.get('839226206276812800');
-  const accountabilityChannel = client.channels.cache.get('821951428717183006');
+  const streaksChannel = client.channels.cache.get('1362096519624397041');
+  const accountabilityChannel = client.channels.cache.get('1362092959570329743');
 
   leaderboardChannel
     .send(leaderboardEmbed)

@@ -1,9 +1,9 @@
 const Discord = require('discord.js');
 
 module.exports = {
-  slackerMessage(userName, userID, rankCounter) {
-    return 'You are a mther yking Slacker';
-  },
+ slackerMessage(userName, userID, rankCounter) {
+   return "هتوحشنا"
+   },
   babyMessage(userName, userID, rankCounter) {
     const babyEmbed = new Discord.MessageEmbed()
       .setColor('#e8bdf7')
