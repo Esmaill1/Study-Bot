@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 
 module.exports = {
  slackerMessage(userName, userID, rankCounter) {
-   return "هتوحشنا"
+   return "لازلت كسول وهتفضل كسول طول عمرك"
    },
   babyMessage(userName, userID, rankCounter) {
     const babyEmbed = new Discord.MessageEmbed()

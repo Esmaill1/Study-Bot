@@ -122,7 +122,7 @@ client.once('ready', () => {
   const pomoChannel = client.channels.cache.get('787808422175178834');
   const todoChannel = client.channels.cache.get('806327504364371989');
   const musicChannel = client.channels.cache.get('787881524753858561');
-  const streaksChannel = client.channels.cache.get('1362096519624397041');
+  const streaksChannel = client.channels.cache.get('136209651962432397041');
   const accountabilityChannel = client.channels.cache.get('1362092959570329743');
 
   leaderboardChannel
