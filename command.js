@@ -17,7 +17,7 @@ module.exports = (client, aliases, callback) => {
                 console.log(`Running the command ${command}`)
                 callback(message)
 
-            }
+            }//
 
         })
     })
